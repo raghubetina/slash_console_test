@@ -60,7 +60,7 @@ end
 gem "active_link_to"
 
 # Add slash_console for web-based Rails console at /rails/console
-gem "slash_console", path: "../slash_console"
+gem "slash_console"
 gem "ai-chat"
 gem "appdev_support"
 gem "awesome_print"

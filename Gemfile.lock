@@ -7,13 +7,6 @@ GIT
       devise
       indefinite_article
 
-PATH
-  remote: ../slash_console
-  specs:
-    slash_console (0.1.0)
-      rails (>= 7.0)
-      web-console (>= 4.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -501,6 +494,9 @@ GEM
     simple_form (5.3.1)
       actionpack (>= 5.2)
       activemodel (>= 5.2)
+    slash_console (0.1.0)
+      rails (>= 7.0)
+      web-console (>= 4.0)
     solid_cable (3.0.7)
       actioncable (>= 7.2)
       activejob (>= 7.2)
@@ -635,7 +631,7 @@ DEPENDENCIES
   selenium-webdriver (~> 4.11.0)
   shoulda-matchers (~> 6.4)
   simple_form
-  slash_console!
+  slash_console
   solid_cable
   solid_cache
   solid_queue
